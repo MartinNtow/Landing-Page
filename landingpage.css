@@ -1,0 +1,112 @@
+.container{
+    background-color: black;
+    margin: 0px auto;
+    padding: 2px 2px;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    outline: 4px solid red;
+    max-width: 100%;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+    max-width: 100%;
+}
+nav a{
+    justify-content: space-between;
+    text-decoration: none;
+    width: 85px;
+    color: white;
+    position: relative;
+    left: 10px;
+        
+}
+a:hover{
+    color: red;
+}
+button{
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    background-color: rgb(180, 30, 30);
+    border-radius: 10px;
+    margin-top: 15px;
+    position: relative;
+    right: 30px;
+    box-shadow: rgb(117, 35, 35);
+    font-weight: bold;
+}
+button:hover{
+    background: white;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.get p{
+    color: red;
+}
+
+.header h2{
+    color: white;
+}
+.text p{
+    color: white;
+}
+section{
+    margin: 0px auto;
+    padding-left: 30px;
+}
+.profiles{
+    display: flex;
+    align-items: center;
+   
+}
+.profiles img{
+    width: 30px;
+    height: 30px;
+    outline: 2px solid red;
+    border-radius: 50px;
+    margin: 3px;
+}
+.profiles p{
+    color: white;
+}
+.learn{
+    position: relative;
+    left: 30px;
+    width: 100px;
+    height: 40pc;
+}
+.phone img{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    bottom: 500px;
+    background-color: black;
+}
+.row{
+    grid-template-columns: 1fr;
+}
